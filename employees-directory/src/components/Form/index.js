@@ -13,14 +13,20 @@ function Form(props) {
                             name='search'
                             onChange={props.handleInputChange}
                             type='text'
-                            placeholder="Type user's name to look up"
                             className='form-control'
                             id="search"
+                            placeholder="Filter by typing a name"
                         />
                         <button
                             onClick={props.handleFormSubmit}
                             className='btn btn-sm btn-secondary'>
                             Search
+                        </button>
+                        <button
+                            onClick={props.handleResultsSort}
+                            className='btn btn-sm btn-secondary'
+                            style={{marginLeft: "12px"}}>
+                            Sort A-Z   
                         </button>
                     </div>
                 </form>

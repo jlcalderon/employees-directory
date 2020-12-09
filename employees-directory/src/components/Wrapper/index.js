@@ -45,13 +45,24 @@ class Wrapper extends Component {
             });
         };
 
+        /* When user click on sort A-Z button */
+        handleResultsSort = (event) => {
+            event.preventDefault();
+            //Logic to sort
+            let resultsSort = this.state.results.sort((userA, userB) => (userA.name.first > userB.name.first) ? 1 : -1);
+            this.setState({
+                resultsTmp: resultsSort
+            });
+
+        }
+
         renderUsersContainer(){
             if (!this.state.search) {
                 //If user search field is empty
                 return (
                     <UsersContainer results={this.state.results}/>    
                 );
-            } else {
+            } else{
                 // If you got data in your user search field
                 return (
                     <UsersContainer results={this.state.resultsTmp}/>
@@ -66,8 +77,8 @@ class Wrapper extends Component {
                     search={this.state.search}
                     handleFormSubmit={this.handleFormSubmit}
                     handleInputChange={this.handleInputChange}
+                    handleResultsSort={this.handleResultsSort}
                 />
-                {/* <UsersContainer results={this.state.results}/> */}
                 {this.renderUsersContainer()}
             </div>
             );
