@@ -22,3 +22,4 @@ If you would like to contribute like them, feel free to do so, please knos that 
 ![Demo of this app](Employees-Directory-React-App.gif)
 
 ## Questions
+Any further question about this project email direct to <jlcalderonfuentes@gmail.com> feel free to reach out and follow me on [Github](https://github.com/jlcalderon). Don't be a stranger and reach out.
