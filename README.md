@@ -16,10 +16,10 @@ This repository contains a React app that renders a container with employees and
 This is an open source app. This app is cover under the **MIT** licences terms. For more information open this link to see the app licence terms of use [*Licence*](https://opensource.org/licenses/MIT)
 
 ## Contributing
-If you would like to contribute like them, feel free to do so, please knos that any contribution will be check and verify before to add it to the production app environment. you can `fork` and `clone` this repository make your changes `push to your branch` and make a `pull request` to compare your code and the main branch across forks and put your changes/additions/corrections on this project.
+If you would like to contribute to this small app, feel free to do so. Please know that any contribution will be check and verify before to merging to the production app environment main branch. You can `fork` and `clone` this repository make your changes `push to your branch` and make a `pull request` to compare your code and the main branch across forks and put your changes/additions/corrections on this app.oject.
 
 ## Demo
 ![Demo of this app](Employees-Directory-React-App.gif)
 
 ## Questions
-Any further question about this project email direct to <jlcalderonfuentes@gmail.com> feel free to reach out and follow me on [Github](https://github.com/jlcalderon). Don't be a stranger and reach out.
+Any further question about this project email direct to <jlcalderonfuentes@gmail.com> feel free to reach out and follow me on [Github](https://github.com/jlcalderon).
